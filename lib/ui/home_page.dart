@@ -7,6 +7,7 @@ import 'package:lab3_mis/service/authentication_service.dart';
 import 'package:lab3_mis/service/exams_service.dart';
 import 'package:lab3_mis/model/student_exam.dart';
 import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
+import 'package:lab3_mis/ui/laboratory_form.dart';
 import 'package:lab3_mis/ui/sign_in.dart';
 import 'package:lab3_mis/ui/table_calendar.dart';
 
@@ -75,8 +76,14 @@ class _MyHomePageState extends State<MyHomePage> {
               "Exam Date: " + studentExam.term.toDate().toString();
           return Padding(
             padding: EdgeInsets.all(10),
-            child: Text(
-              labelText,
+            child: Column(
+              children: [
+                Text(labelText),
+                ElevatedButton(onPressed: () => Navigator.of(context).push(MaterialPageRoute(
+                    builder: (_) => LaboratoryForm(
+                        studentExam: studentExam))),
+                    child: Text("Add laboratory"))
+              ],
             ),
           );
         } else {

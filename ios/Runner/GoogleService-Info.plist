@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>33553038284-81e17cb68r5d3n6ib2o2lqd5u6ej5kii.apps.googleusercontent.com</string>
+	<string>734987509885-329rqqno1slam7rgosrp6dspg8hb5gu1.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.33553038284-81e17cb68r5d3n6ib2o2lqd5u6ej5kii</string>
+	<string>com.googleusercontent.apps.734987509885-329rqqno1slam7rgosrp6dspg8hb5gu1</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBEVnPSib13DJy7oK2j0a7nz95-75u1VFg</string>
+	<string>AIzaSyAa8QL7cXQp4Nblap-l_QSX7pJC4gk5T0g</string>
 	<key>GCM_SENDER_ID</key>
-	<string>33553038284</string>
+	<string>734987509885</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.example.lab3Mis</string>
 	<key>PROJECT_ID</key>
-	<string>mis-lab-421f8</string>
+	<string>mis-laboratory</string>
 	<key>STORAGE_BUCKET</key>
-	<string>mis-lab-421f8.appspot.com</string>
+	<string>mis-laboratory.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:33553038284:ios:daf055cb823dd78eb73b69</string>
+	<string>1:734987509885:ios:1a4601fa6ef0d182141114</string>
 </dict>
 </plist>

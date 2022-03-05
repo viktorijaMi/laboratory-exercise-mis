@@ -43,6 +43,8 @@ dependencies:
   cloud_firestore: ^3.1.7
   riverpod: ^1.0.3
   hooks_riverpod: ^1.0.3
+  google_maps_flutter: ^2.1.2
+  geolocator: ^8.0.1
 
 dev_dependencies:
   flutter_test:

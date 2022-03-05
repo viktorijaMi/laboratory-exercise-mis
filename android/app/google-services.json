@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "33553038284",
-    "project_id": "mis-lab-421f8",
-    "storage_bucket": "mis-lab-421f8.appspot.com"
+    "project_number": "734987509885",
+    "project_id": "mis-laboratory",
+    "storage_bucket": "mis-laboratory.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:33553038284:android:88a1a3c6332b08fab73b69",
+        "mobilesdk_app_id": "1:734987509885:android:508d230be4589e5f141114",
         "android_client_info": {
           "package_name": "com.example.lab3_mis"
         }
       },
       "oauth_client": [
         {
-          "client_id": "33553038284-4h15u0d20u1ju5eveeeslpfsep5hqap2.apps.googleusercontent.com",
+          "client_id": "734987509885-nl114eemlno48ahdh49ffhejrbrmpj6b.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA5RCscou1qvzwpOZc_C4qm-m7HNi4jzPU"
+          "current_key": "AIzaSyB3NCB74T-ADMg0Y65z2YoPKl40GE4sD1g"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "33553038284-4h15u0d20u1ju5eveeeslpfsep5hqap2.apps.googleusercontent.com",
+              "client_id": "734987509885-nl114eemlno48ahdh49ffhejrbrmpj6b.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

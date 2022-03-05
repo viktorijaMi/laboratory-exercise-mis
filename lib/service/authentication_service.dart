@@ -13,7 +13,7 @@ class AuthenticationService {
     return _instance;
   }
   AuthenticationService._internal();
-  static const USERS_COLLECTION = "users";
+  static const USERS_COLLECTION = "USERS_COLLECTION";
 
   Stream<User?> get authStateChanges => _firebaseAuth.authStateChanges();
 
@@ -106,7 +106,7 @@ class AuthenticationService {
       email: userDto.email,
     );
     await _firestore
-        .collection(USERS_COLLECTION)
+        .collection("USERS_COLLECTION")
         .doc(userDto.uuid)
         .set(toPersist.toJson());
     return toPersist;

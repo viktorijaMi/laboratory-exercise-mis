@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.lab3_mis">
-   <application
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <application
         android:label="lab3_mis"
         android:icon="@mipmap/ic_launcher">
         <activity
@@ -37,5 +38,7 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyADf_DopenSmzZPbpsy1juuIf9Hg7DtGXI"/>
     </application>
 </manifest>
